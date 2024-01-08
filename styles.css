@@ -2,17 +2,78 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: black;
+}
 .main{
    background-image: url("assets/images/bg.jpg"); 
-   height: 80vh;
+   height: 70vh;
    position: relative;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: max(1200px, 100vw)
 }
 
 .main .box{
-    height: 80vh;
+    height: 70vh;
     width:100%;
     opacity: 0.44;
     position: absolute;
     top:0;
     background-color: black;
+    
+}
+
+nav{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+
+.main .hero{
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+    position: relative;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 23px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
 }

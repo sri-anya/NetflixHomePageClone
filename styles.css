@@ -123,11 +123,11 @@ nav button {
     padding: 3px 8px;
     font-weight: 500;
     border-radius: 0.25rem;
-    color:white;
+    color: white;
     background-color: rgba(5, 5, 5, 0.2);
     border: 1px solid white;
     cursor: pointer;
-    
+
 }
 
 .btn-red {
@@ -147,15 +147,15 @@ nav button {
     border: none;
 }
 
-.main input{
-    background-color: rgba(23,23,23,0.7);
-    border:1px solid rgba(246,239,238,0.5);
+.main input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 239, 238, 0.5);
     color: white;
     /* padding: 1.5rem 1rem 0.5rem; */
     padding: 20px 101px 12px 14px;
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,36 +165,42 @@ nav button {
     color: white;
 }
 
-.secImg{
+
+
+.secImg {
     position: relative;
 }
 
-.secImg > img{
-    width: 37vw;
+.secImg>img {
+
+
+    width: 545px;
     position: relative;
     z-index: 0;
 }
 
-.secImg video{
-    position:absolute;
-    top:83px;
-    right:17px;
-    height:56%;
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 545px;
+
+
 }
 
-.first > div{
+.first>div {
     display: flex;
     flex-direction: column;
-    gap:20px;
-    
-} 
+    gap: 20px;
 
-.first > div:first-child{
+}
+
+.first>div:first-child {
     font-size: 48px;
     font-weight: 900;
 }
 
-.first > div :nth-child(2){
+.first>div :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
     width: 93%;
@@ -207,7 +213,7 @@ nav button {
     z-index: 20;
 }
 
-.second{
+.second {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,67 +223,68 @@ nav button {
     color: white;
 }
 
-.secImg video{
-    position:absolute;
-    top:83px;
-    right:17px;
-    height:56%;
+.secImg video {
+    position: absolute;
+    top: 83px;
+    right: 17px;
+    height: 56%;
 }
 
-.second :nth-child(2) :first-child{
+.second :nth-child(2) :first-child {
     font-size: 48px;
     font-weight: 900;
 }
 
 
-.second :nth-child(2) :nth-child(2){
+.second :nth-child(2) :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
     width: 93%;
 }
 
-.second .secImg video{
-    position:absolute;
-    top:50px;
-    right:23px;
-    height:46%;
+.second .secImg video {
+    position: absolute;
+    top: 50px;
+    right: 23px;
+    height: 46%;
 }
 
 
 
-.download-mobile{
+.download-mobile {
     max-width: 350px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap:12px;
+    gap: 12px;
     border: 1px solid white;
-    position:absolute;
-    top:280px;
-    left: 6vw;
+    position: absolute;
+    top: 280px;
+    left: 90px;
     background-color: black;
     border-radius: 5%;
     padding: 12px;
-    
-    
+
+
 }
 
-.download-mobile img{
+.download-mobile img {
     width: 100px;
     height: 100px;
-    
+
     object-fit: contain;
 }
-.faq{
+
+.faq {
     padding: 34px;
     text-align: center;
 }
 
-.faqbox{
-    display:flex;
+.faqbox {
+    display: flex;
     justify-content: space-between;
-    background-color:rgb(45,45,45);
+    background-color: rgb(45, 45, 45);
     padding: 24px;
     color: white;
     max-width: 70vw;
@@ -285,77 +292,130 @@ nav button {
     margin-top: 14px;
 }
 
-.faqbox:hover{
-    background-color:rgb(81, 80, 80) ;
+.faqbox:hover {
+    background-color: rgb(81, 80, 80);
 }
 
-.faqbox span{
+.faqbox span {
     font-size: 24px;
     font-weight: 400;
 }
 
-.faq h2{
+.faq h2 {
     color: white;
     font-size: 48px;
     font-weight: 900;
 }
 
-.faqbox svg{
-    color:white;
+.faqbox svg {
+    color: white;
 }
 
-.subscription{
+.subscription {
     padding: 45px;
     font-size: 20px;
     font-weight: 400;
 }
 
 
-.subscription input{
-    background-color: rgba(23,23,23,0.7);
-    border:1px solid rgba(246,239,238,0.5);
+.subscription input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 239, 238, 0.5);
     color: white;
     padding: 20px 101px 12px 14px;
     margin: 23px;
     border-radius: 4px;
 }
 
-.subscription > div{
+.subscription>div {
     color: white;
 }
 
-.footer{
-   
+.footer {
+
     color: white;
     max-width: 73vw;
     margin: 72px auto;
     padding: 48px 0px;
 }
 
-.footer .footer-box{
+.footer .footer-box {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 
-    
+
 }
 
-.grid-container .telephone{
+.grid-container .telephone {
     font-size: 16px;
     font-weight: 400;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.grid-item{
-    padding-top: 10px;;
-}
-.grid-item a{
-    font-size: 14px;
-    font-weight: 400;
-    color:white;
-    margin:3px;
+
+.grid-item {
+    padding-top: 10px;
+    ;
 }
 
+.grid-item a {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin: 3px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    nav {
+        max-width: 70vw;
+        
+    }
+    nav img {
+        padding-left:20px;
+        
+        width: 74px;
+        
+    }
+    .first {
+        flex-wrap: wrap;
+        margin-top: 191px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .secImg>img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+        top: 45px;
+        right: 11px;
+        width: 545px;
+
+    }
+
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    .hero> :nth-child(1){
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(2){
+        font-size: 18px;
+    }
+    .hero> :nth-child(3){
+        font-size: 18px;
+    }
+
+
+
+}
